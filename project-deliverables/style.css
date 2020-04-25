@@ -7,7 +7,7 @@ body{
     background-color:#f4f4f4;
 }
 
-/* can be put anywhere*/
+/* can be put anywhere */
 .container{
     width: 80%;
     margin: auto;
@@ -17,7 +17,6 @@ body{
 ul{
     margin: 0;
     padding 0;
-
 }
 
 .button_1{
@@ -27,11 +26,9 @@ ul{
     padding-left: 20px;
     padding-right: 20px;
     color: #ffffff;
-
-
 }
 
-/*header*/
+/* header */
 header{
     background:#FAC9B8;
     color:#000000;
@@ -64,47 +61,40 @@ header #branding{
 
 header #branding h1{
     margin: 0;
-
 }
 
 header nav{
     float: right;
-
 }
 
 
-/*banner*/
+/* banner */
 #banner{
     min-height: 380px;
-    background:url('../images/banner_edited.png') no-repeat;
+    background: url(images/banner_edited.png) no-repeat;
     background-size: 100%;
     text-align: center;
     color:#ffffff;
-
 }
 
 #banner h1{
     margin-top: 100px;
     font-size: 55px;
     margin-bottom: 10px;
-
 }
 
 #banner p{
     font-size: 20px;
-
 }
 
 #appointment{
     padding: 30px;
     color: #ffffff;
     background: #86DEB7;
-
 }
 
 #appointment h1{
     float: left;
-
 }
 
 #appointment form{
@@ -116,7 +106,6 @@ header nav{
     padding: 4px;
     height: 20px;
     width: 200px;
-
 }
 
 #appointment input[type="password"]{
@@ -128,7 +117,6 @@ header nav{
 /* options to click */
 #options_to_click{
     margin-top: 15px;
-
 }
 
 #options_to_click .option{
@@ -136,7 +124,6 @@ header nav{
     text-align: center;
     width: 30%;
     padding: 10px;
-
 }
 
 
@@ -154,7 +141,6 @@ iframe {
     display: block;
     margin: auto;
     margin-bottom: 20px;
-
 }
 
 
@@ -164,7 +150,5 @@ footer{
     padding: 20px;
     margin-top: 10px;
     color: #5C6784;
-    background-color:#FAC9B8;
-    
-
+    background-color:#FAC9B8;  
 }
