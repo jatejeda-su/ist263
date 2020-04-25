@@ -1,0 +1,154 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height:1.5;
+    padding: 0;
+    margin: 0;
+    background-color:#f4f4f4;
+}
+
+/* can be put anywhere */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding 0;
+}
+
+.button_1{
+    height: 32px;
+    background: #5C6784;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+/* header */
+header{
+    background:#FAC9B8;
+    color:#000000;
+    padding-top: 30px;
+    min-height: 60px;
+    
+}
+
+header a{
+    color:#000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    float: left;
+    display:inline;
+    padding: 0 10px 0 10px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+}
+
+
+/* banner */
+#banner{
+    min-height: 380px;
+    background: url(images/banner_edited.png) no-repeat;
+    background-size: 100%;
+    text-align: center;
+    color:#ffffff;
+}
+
+#banner h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#banner p{
+    font-size: 20px;
+}
+
+#appointment{
+    padding: 30px;
+    color: #ffffff;
+    background: #86DEB7;
+}
+
+#appointment h1{
+    float: left;
+}
+
+#appointment form{
+    float: right;
+    margin-top: 20px;
+}
+
+#appointment input[type="email"]{
+    padding: 4px;
+    height: 20px;
+    width: 200px;
+}
+
+#appointment input[type="password"]{
+    padding: 4px;
+    height: 20px;
+    width: 200px;
+}
+
+/* options to click */
+#options_to_click{
+    margin-top: 15px;
+}
+
+#options_to_click .option{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+
+/* services */
+ul#services li{
+    list-style: none;
+    padding: 15px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+/* about */
+iframe {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+
+/* footer */
+footer{
+    padding: 20px;
+    margin-top: 10px;
+    color: #5C6784;
+    background-color:#FAC9B8;  
+}
